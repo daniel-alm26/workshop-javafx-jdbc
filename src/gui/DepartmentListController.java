@@ -49,7 +49,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 	private TableColumn<Department, Department> tableColumnEDIT;
 
 	@FXML
-	TableColumn<Department, Department> tableColumnREMOVE;
+	private TableColumn<Department, Department> tableColumnREMOVE;
 
 	@FXML
 	private Button btNew;
